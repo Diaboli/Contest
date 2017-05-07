@@ -1,0 +1,171 @@
+10
+
+dir
+988
+svn://192.168.1.3/xuejieshuo/xuejieshuo/Public/static/ckeditor/plugins
+svn://192.168.1.3/xuejieshuo
+
+
+
+2014-07-28T11:44:43.449681Z
+599
+wangjianming
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+150b80be-a634-4621-8395-4ba05612f2ae
+
+a11yhelp
+dir
+
+about
+dir
+
+clipboard
+dir
+
+colordialog
+dir
+
+dialog
+dir
+
+div
+dir
+
+find
+dir
+
+flash
+dir
+
+forms
+dir
+
+icons.png
+file
+
+
+
+
+2014-08-26T07:05:41.461000Z
+041443f8380d92fdcc39ac1d7f841010
+2014-07-28T11:44:43.449681Z
+599
+wangjianming
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20833
+
+icons_hidpi.png
+file
+
+
+
+
+2014-08-26T07:05:43.279000Z
+16af6f6d04e4cd2180690cfcab4a7f9d
+2014-07-28T11:44:43.449681Z
+599
+wangjianming
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+67753
+
+iframe
+dir
+
+image
+dir
+
+link
+dir
+
+liststyle
+dir
+
+magicline
+dir
+
+pagebreak
+dir
+
+pastefromword
+dir
+
+preview
+dir
+
+scayt
+dir
+
+showblocks
+dir
+
+smiley
+dir
+
+specialchar
+dir
+
+table
+dir
+
+tabletools
+dir
+
+templates
+dir
+
+wsc
+dir
+

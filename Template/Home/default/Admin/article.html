@@ -1,0 +1,32 @@
+<extend name="./Application/Common/View/Base/admin.html" />
+<block name="style">
+	
+</block>
+<block name="main">
+	<br/><br/>
+	<div class="main-title">
+		<h2 class="f20 fb">文章信息</h2>
+	</div>
+	<a herf="javascript:void(0);" class="skimArticle"><button class="btn">查看</button></a>
+	<a herf="javascript:void(0);" btnWay="{:U('/Home/Admin/delArticle')}" class="btnFunction"><button class="btn">删除</button></a>
+	<div class="data-table">
+		<table class="table-tittle">
+			<thead><tr><th><input type="checkbox" id="checkAll"></th><th>标题</th><th>分类</th><th>作者</th><th>时间</th></tr></thead>
+			<tbody>
+				<foreach name="info" item="vo" key="k">
+					<tr>
+						<td><input type="checkbox" name="subBox" value="{$vo.id}"/></td>
+						<td>{$vo.title}</td>
+						<td>{$vo.class}</td>
+						<td>{$vo.author}</td>
+						<td>{$vo.time}</td>
+					</tr>
+				</foreach>
+			</tbody>
+		</table>
+	</div>
+	<include file="./Template/Home/default/public/page.html"/>
+</block>
+<block name="script">
+	<script type="text/javascript" src="./Template/Home/default/Admin/js/admin.js"></script>
+</block>

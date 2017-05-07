@@ -1,0 +1,1891 @@
+[ 2014-12-04T21:42:31+08:00 ] ::1 /contest/index.php?s=/Home/Center/uploadArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005532s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003174s ]
+
+[ 2014-12-04T21:42:34+08:00 ] ::1 /contest/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030144s ]
+
+[ 2014-12-04T21:43:15+08:00 ] ::1 /contest/index.php?s=/Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.162860s ]
+SQL: SELECT permissions FROM `member` id = '' [ RunTime:0.059797s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ''' at line 1
+ [ SQL语句 ] : SELECT permissions FROM `member` id = ''
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+
+[ 2014-12-04T21:43:18+08:00 ] ::1 /contest/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2014-12-04T21:43:31+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002964s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.014591s ]
+SQL: SELECT permissions FROM `member` id = '' [ RunTime:0.000180s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ''' at line 1
+ [ SQL语句 ] : SELECT permissions FROM `member` id = ''
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002397s ]
+
+[ 2014-12-04T21:43:34+08:00 ] ::1 /contest/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2014-12-04T21:43:49+08:00 ] ::1 /contest/index.php?s=/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.013643s ]
+SQL: SELECT id, username FROM  `member` WHERE username =  'xx' AND PASSWORD =  123456789 [ RunTime:0.517595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2014-12-04T21:43:50+08:00 ] ::1 /contest/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2014-12-04T21:46:34+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.018790s ]
+SQL: SELECT permissions FROM `member` id = '1' [ RunTime:0.000151s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '1'' at line 1
+ [ SQL语句 ] : SELECT permissions FROM `member` id = '1'
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 16 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 17 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2014-12-04T21:47:32+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.007673s ]
+SQL: SELECT permissions FROM `member` id = '1' [ RunTime:0.000232s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '1'' at line 1
+ [ SQL语句 ] : SELECT permissions FROM `member` id = '1'
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 16 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 17 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2014-12-04T21:48:38+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.007836s ]
+SQL: SELECT permissions FROM `member` id = '1' [ RunTime:0.000182s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '1'' at line 1
+ [ SQL语句 ] : SELECT permissions FROM `member` id = '1'
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 16 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 17 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2014-12-04T21:49:13+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.007357s ]
+SQL: SELECT permissions FROM `member` id = '1' [ RunTime:0.000181s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '1'' at line 1
+ [ SQL语句 ] : SELECT permissions FROM `member` id = '1'
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 16 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 17 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2014-12-04T21:49:23+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+
+[ 2014-12-04T21:49:23+08:00 ] ::1 /contest/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2014-12-04T21:49:28+08:00 ] ::1 /contest/index.php?s=/Home/Admin/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+
+[ 2014-12-04T21:49:28+08:00 ] ::1 /contest/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2014-12-04T21:49:30+08:00 ] ::1 /contest/index.php?s=/Home/Admin/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+
+[ 2014-12-04T21:49:30+08:00 ] ::1 /contest/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2014-12-04T21:55:36+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004884s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 16 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 17 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.046604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.046691s ]
+
+[ 2014-12-04T21:55:38+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: info G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 58 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 88 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 89 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 90 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 90 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 92 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 92 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 95 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 99 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 101 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 101 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.385314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.385385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2014-12-04T21:55:51+08:00 ] ::1 /contest/index.php?s=/Home/Admin/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 22 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 90 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 91 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 92 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 92 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 94 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 94 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 97 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 101 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 103 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 103 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2014-12-04T21:55:52+08:00 ] ::1 /contest/index.php?s=/Home/Admin/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 22 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 75 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 76 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 77 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 77 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 79 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 79 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 82 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 86 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 88 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 88 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2014-12-04T21:55:54+08:00 ] ::1 /contest/index.php?s=/Home/Admin/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 22 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 90 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 91 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 92 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 92 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 94 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 94 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 97 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 101 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 103 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 103 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2014-12-04T21:55:55+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 16 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 17 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001392s ]
+
+[ 2014-12-04T21:55:56+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: info G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 58 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 88 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 89 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 90 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 90 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 92 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 92 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 95 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 99 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 101 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 101 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2014-12-04T22:03:55+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2014-12-04T22:03:57+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2014-12-04T22:03:57+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2014-12-04T22:03:58+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2014-12-04T22:03:58+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2014-12-04T22:03:59+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2014-12-04T22:04:00+08:00 ] ::1 /contest/index.php?s=/Home/Admin/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 22 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 90 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 91 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 92 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 92 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 94 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 94 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 97 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 101 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 103 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 103 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2014-12-04T22:04:04+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2014-12-04T22:04:52+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2014-12-04T22:05:22+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2014-12-04T22:05:23+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2014-12-04T22:05:38+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2014-12-04T22:05:40+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2014-12-04T22:09:44+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2014-12-04T22:09:50+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2014-12-04T22:09:51+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: info G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 58 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 88 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 89 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 90 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 90 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 92 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 92 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 95 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 99 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 101 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 101 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2014-12-04T22:11:20+08:00 ] ::1 /contest/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2014-12-04T22:11:31+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2014-12-04T22:11:43+08:00 ] ::1 /contest/index.php?s=/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\97d11002f3df0d2ee86f1b610be029f7.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2014-12-04T22:14:36+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: info G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 58 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 88 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 89 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 90 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 90 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 92 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 92 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 95 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 99 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 101 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 101 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.309376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.309477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2014-12-04T22:15:17+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2014-12-04T22:15:19+08:00 ] ::1 /contest/index.php?s=/Home/Admin/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 22 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 90 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 91 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 92 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 92 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 94 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 94 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 97 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 101 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 103 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 103 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2014-12-04T22:15:49+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2014-12-04T22:20:45+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 18 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 19 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 49 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 50 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 56 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 60 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2014-12-04T22:23:59+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 23 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 52 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 55 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 55 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 58 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 64 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 64 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2014-12-04T22:24:18+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 23 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 52 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 55 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 55 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 58 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 64 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 64 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2014-12-04T22:25:53+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 23 行.
+NOTIC: [8] Undefined variable: vo G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 45 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 52 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 55 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 55 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 58 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 64 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 64 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.463719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.463804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2014-12-04T22:27:17+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 23 行.
+NOTIC: [8] Undefined variable: vo G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 45 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 52 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 55 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 55 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 58 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 64 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 64 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2014-12-04T22:28:36+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 23 行.
+NOTIC: [8] Undefined variable: vo G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 42 行.
+NOTIC: [8] Undefined variable: vo G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 43 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 49 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 50 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 56 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 60 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2014-12-04T22:29:46+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 23 行.
+NOTIC: [8] Undefined variable: vo G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 42 行.
+NOTIC: [8] Undefined variable: vo G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 43 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 49 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 50 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 56 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 60 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.299282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.299387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2014-12-04T22:29:49+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 23 行.
+NOTIC: [8] Undefined variable: vo G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 42 行.
+NOTIC: [8] Undefined variable: vo G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 43 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 49 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 50 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 56 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 60 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2014-12-04T22:30:38+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 23 行.
+NOTIC: [8] Undefined variable: vo G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 42 行.
+NOTIC: [8] Undefined variable: vo G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 43 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 49 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 50 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 56 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 60 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2014-12-04T22:31:41+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 23 行.
+NOTIC: [8] Undefined variable: vo G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 42 行.
+NOTIC: [8] Undefined variable: vo G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 43 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 49 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 50 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 56 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 60 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2014-12-04T22:31:52+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 23 行.
+NOTIC: [8] Undefined variable: vo G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 42 行.
+NOTIC: [8] Undefined variable: vo G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 43 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 49 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 50 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 56 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 60 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.317214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.317285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2014-12-04T22:33:22+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 23 行.
+NOTIC: [8] Undefined variable: vo G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 42 行.
+NOTIC: [8] Undefined variable: vo G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 43 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 49 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 50 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 56 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 60 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2014-12-04T22:34:36+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001767s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 23 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 49 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 50 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 56 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 60 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2014-12-04T22:36:55+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 23 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 49 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 50 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 56 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 60 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2014-12-04T22:37:19+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 23 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 49 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 50 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 56 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 60 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2014-12-04T22:38:22+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 23 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 49 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 50 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 56 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 60 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2014-12-04T22:42:01+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 23 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 49 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 50 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 56 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 60 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2014-12-04T22:42:02+08:00 ] ::1 /contest/index.php?s=/Home/Admin/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 22 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 23 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 49 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 50 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 56 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 60 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\f785edb93496f1d9c808e3aae9a23644.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2014-12-04T22:42:03+08:00 ] ::1 /contest/index.php?s=/Home/Admin/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 22 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 23 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 49 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 50 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 56 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 60 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\de6a0cee7ed3e97f8d8a477570608000.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2014-12-04T22:42:04+08:00 ] ::1 /contest/index.php?s=/Home/Admin/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 20 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 21 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 22 行.
+NOTIC: [8] Undefined variable: navJudge G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 23 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 49 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 50 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 51 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 53 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 56 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 60 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 62 行.
+NOTIC: [8] Undefined variable: page G:\wamp\www\contest\Application\Runtime\Cache\Home\afcf5f43e7a9e382d96eb8f753efc998.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+

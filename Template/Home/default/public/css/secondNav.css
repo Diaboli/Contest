@@ -1,0 +1,24 @@
+#secondNav{
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	height: 43px;
+	border-bottom: 3px solid #3EB8DD;
+	background-color: #F5F5F5;
+}
+#secondNav li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #000;
+}
+#secondNav li:hover{
+	background-color: #E6E6E6;
+	cursor: pointer;
+}
+#secondNav li.nowPage{
+	background-color: #3EB8DD;	
+}

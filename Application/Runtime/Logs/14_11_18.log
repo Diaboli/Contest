@@ -1,0 +1,33 @@
+[ 2014-11-18T19:03:56+08:00 ] 127.0.0.1 /contest/index.php/Home/index
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2014-11-18T19:04:43+08:00 ] 127.0.0.1 /contest/index.php/Home/index
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2014-11-18T19:04:44+08:00 ] 127.0.0.1 /contest/index.php/Home/index
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2014-11-18T19:08:23+08:00 ] 127.0.0.1 /contest/index.php/Home/index
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2014-11-18T19:23:18+08:00 ] 127.0.0.1 /contest/index.php/Home/index
+ERR: 模板不存在:D:\wamp\www\contest\Template/Home/Index/index.html
+
+[ 2014-11-18T19:24:30+08:00 ] 127.0.0.1 /contest/index.php/Home/index
+ERR: 模板不存在:D:\wamp\www\contest\Template/Home/Index/index.html
+
+[ 2014-11-18T19:24:38+08:00 ] 127.0.0.1 /contest/index.php/Home/index
+ERR: 模板不存在:D:\wamp\www\contest\Template/Home/Index/index.html
+
+[ 2014-11-18T19:31:30+08:00 ] 127.0.0.1 /contest/index.php/Home/index
+ERR: 模板不存在:D:\wamp\www\contest\Template/Home/Index/index.html
+
+[ 2014-11-18T19:49:24+08:00 ] 127.0.0.1 /contest/Home/index.html/pape/1
+ERR: 无法加载控制器:Index.html
+
+[ 2014-11-18T19:54:03+08:00 ] 127.0.0.1 /contest/Home/index.html/pape/1
+ERR: 无法加载控制器:Index.html
+
+[ 2014-11-18T19:56:45+08:00 ] 127.0.0.1 /contest/Home/index.html/pape/1
+ERR: 无法加载控制器:Index.html
+

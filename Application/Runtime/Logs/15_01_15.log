@@ -1,0 +1,234 @@
+[ 2015-01-15T20:45:15+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.042725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011450s ]
+
+[ 2015-01-15T20:45:15+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.030257s ]
+SQL: SELECT status FROM  `member` WHERE id =  '' [ RunTime:0.000435s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\contest\Application\Home\Model\MemberModel.class.php 第 114 行.
+NOTIC: [2] Illegal string offset 'uid' D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.177488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.177607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011518s ]
+
+[ 2015-01-15T20:45:23+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Index/articleList/nav/1/page/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.006365s ]
+SQL: SELECT status FROM  `member` WHERE id =  '' [ RunTime:0.000282s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\contest\Application\Home\Model\MemberModel.class.php 第 114 行.
+NOTIC: [2] Illegal string offset 'uid' D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.039067s ]
+SQL: SELECT * FROM `article` ORDER BY id DESC LIMIT 0, 6 [ RunTime:0.035424s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.033704s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '3' [ RunTime:0.001680s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '4' [ RunTime:0.000461s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '2' [ RunTime:0.001033s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '6' [ RunTime:0.000809s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '5' [ RunTime:0.000427s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '10' [ RunTime:0.000278s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000443s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000319s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000341s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000228s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000232s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000225s ]
+SQL: SELECT COUNT(*) FROM `article` [ RunTime:0.000318s ]
+SQL: SELECT class, meaning navName FROM  `category` ORDER BY class ASC LIMIT 12 [ RunTime:0.000382s ]
+SQL: SELECT id, title FROM `article` ORDER BY id DESC LIMIT 6 [ RunTime:0.000263s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] Use of undefined constant pages - assumed 'pages' D:\wamp\www\contest\Application\Runtime\Cache\Home\ce9b301632fad33703bd705746315f14.php 第 113 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\contest\Application\Runtime\Cache\Home\ce9b301632fad33703bd705746315f14.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2015-01-15T20:45:25+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.004233s ]
+SQL: SELECT status FROM  `member` WHERE id =  '' [ RunTime:0.000294s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\contest\Application\Home\Model\MemberModel.class.php 第 114 行.
+NOTIC: [2] Illegal string offset 'uid' D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2015-01-15T20:45:45+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Index/articleList/nav/1/page/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.004619s ]
+SQL: SELECT status FROM  `member` WHERE id =  '' [ RunTime:0.000430s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\contest\Application\Home\Model\MemberModel.class.php 第 114 行.
+NOTIC: [2] Illegal string offset 'uid' D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.004383s ]
+SQL: SELECT * FROM `article` ORDER BY id DESC LIMIT 0, 6 [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003528s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '3' [ RunTime:0.000274s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '4' [ RunTime:0.000465s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '2' [ RunTime:0.000434s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '6' [ RunTime:0.001095s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '5' [ RunTime:0.000453s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '10' [ RunTime:0.000522s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000540s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000408s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000453s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000964s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000506s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000208s ]
+SQL: SELECT COUNT(*) FROM `article` [ RunTime:0.000206s ]
+SQL: SELECT class, meaning navName FROM  `category` ORDER BY class ASC LIMIT 12 [ RunTime:0.000264s ]
+SQL: SELECT id, title FROM `article` ORDER BY id DESC LIMIT 6 [ RunTime:0.000171s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Use of undefined constant pages - assumed 'pages' D:\wamp\www\contest\Application\Runtime\Cache\Home\ce9b301632fad33703bd705746315f14.php 第 113 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\contest\Application\Runtime\Cache\Home\ce9b301632fad33703bd705746315f14.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001448s ]
+
+[ 2015-01-15T20:45:46+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Index/articleList/nav/1/page/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.003736s ]
+SQL: SELECT status FROM  `member` WHERE id =  '' [ RunTime:0.000362s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\contest\Application\Home\Model\MemberModel.class.php 第 114 行.
+NOTIC: [2] Illegal string offset 'uid' D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.003983s ]
+SQL: SELECT * FROM `article` ORDER BY id DESC LIMIT 0, 6 [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003348s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '3' [ RunTime:0.000235s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '4' [ RunTime:0.000161s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '2' [ RunTime:0.000144s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '6' [ RunTime:0.000132s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '5' [ RunTime:0.000131s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '10' [ RunTime:0.000129s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000151s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000134s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000142s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000128s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000152s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000134s ]
+SQL: SELECT COUNT(*) FROM `article` [ RunTime:0.000198s ]
+SQL: SELECT class, meaning navName FROM  `category` ORDER BY class ASC LIMIT 12 [ RunTime:0.000272s ]
+SQL: SELECT id, title FROM `article` ORDER BY id DESC LIMIT 6 [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+NOTIC: [8] Use of undefined constant pages - assumed 'pages' D:\wamp\www\contest\Application\Runtime\Cache\Home\ce9b301632fad33703bd705746315f14.php 第 113 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\contest\Application\Runtime\Cache\Home\ce9b301632fad33703bd705746315f14.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2015-01-15T20:45:47+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Index/article/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.003691s ]
+NOTIC: [8] Undefined variable: uid D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 107 行.
+SQL: SELECT status FROM  `member` WHERE id =  '' [ RunTime:0.000331s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\contest\Application\Home\Model\MemberModel.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.003684s ]
+SQL: SELECT * FROM `article` WHERE id = '19' [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003460s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '3' [ RunTime:0.000331s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000235s ]
+SQL: SELECT class, meaning navName FROM  `category` ORDER BY class ASC LIMIT 12 [ RunTime:0.000223s ]
+SQL: SELECT id, title FROM `article` ORDER BY id DESC LIMIT 6 [ RunTime:0.000207s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [8] Undefined index: nav D:\wamp\www\contest\Application\Runtime\Cache\Home\60e95b68c4fd85ae4714e7d504182a1b.php 第 77 行.
+NOTIC: [8] Undefined index: nav D:\wamp\www\contest\Application\Runtime\Cache\Home\60e95b68c4fd85ae4714e7d504182a1b.php 第 77 行.
+NOTIC: [8] Undefined index: nav D:\wamp\www\contest\Application\Runtime\Cache\Home\60e95b68c4fd85ae4714e7d504182a1b.php 第 77 行.
+NOTIC: [8] Undefined index: nav D:\wamp\www\contest\Application\Runtime\Cache\Home\60e95b68c4fd85ae4714e7d504182a1b.php 第 77 行.
+NOTIC: [8] Undefined index: nav D:\wamp\www\contest\Application\Runtime\Cache\Home\60e95b68c4fd85ae4714e7d504182a1b.php 第 77 行.
+NOTIC: [8] Undefined index: nav D:\wamp\www\contest\Application\Runtime\Cache\Home\60e95b68c4fd85ae4714e7d504182a1b.php 第 77 行.
+NOTIC: [8] Undefined index: nav D:\wamp\www\contest\Application\Runtime\Cache\Home\60e95b68c4fd85ae4714e7d504182a1b.php 第 77 行.
+NOTIC: [8] Undefined index: nav D:\wamp\www\contest\Application\Runtime\Cache\Home\60e95b68c4fd85ae4714e7d504182a1b.php 第 77 行.
+NOTIC: [8] Undefined index: nav D:\wamp\www\contest\Application\Runtime\Cache\Home\60e95b68c4fd85ae4714e7d504182a1b.php 第 77 行.
+NOTIC: [8] Undefined index: nav D:\wamp\www\contest\Application\Runtime\Cache\Home\60e95b68c4fd85ae4714e7d504182a1b.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+

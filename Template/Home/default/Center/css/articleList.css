@@ -1,0 +1,56 @@
+.userUl{
+	list-style: none;
+	padding: 0;	
+	margin-top: 20px;
+}
+.userUl a:hover{
+	text-decoration: none;
+	color: #1E4468;
+}
+.userLi,.userUlTitle{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #F2F2F2;
+	border-left: 3px solid #F2F2F2;
+	line-height: 40px;
+	font-size: 20px;
+    background-color: #F9F9F9;
+    margin: 2px 0;
+    padding: 0 0 0 10px;
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+.userUlTitle{
+	background-color: #2F86FD;
+	color: #fff;
+	font-weight: 700;
+	border: 1px solid #2F86FD;
+	border-left: 3px solid #2F86FD;
+	padding: 0 0 0 10px
+}
+.userLi:hover{
+	border-left: 3px solid #2F86FD;
+	color: #275581;
+}
+.userDiv{
+	margin-top: 20px;
+	background-color: #F9F9F9;
+	padding: 5px 30px 10px 30px;
+}
+.recordList{
+	list-style: none;
+}
+.userDiv h3{
+	border-bottom: 2px solid #EAEAEA;
+	padding: 0 0 5px 0;
+	color: #53698C;
+}
+.recordContent{
+	border-bottom: 1px solid #EAEAEA;
+	padding: 5px 5px 5px 10px;
+	height: 70px;
+	color: #53698C;
+}
+.recordContent:hover{
+	background-color: #DEDEDE;
+}

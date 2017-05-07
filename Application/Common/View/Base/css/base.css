@@ -1,0 +1,114 @@
+.rightNavUl{margin: 0 5px;}
+.rightNav{
+	float: right;
+	line-height: 50px;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 0 3px;
+}
+.rightNav:hover{color: #ffffff;}
+.wrapper{
+	position: relative;
+	height: auto;
+	min-height: 100%;
+}
+.footer{  
+   position: absolute;
+   bottom: 0; 
+   left: 0;
+   height: 76px; 
+   width: 100%;        
+   text-align: center;
+   background-color: #F2F2F2;
+   padding-top: 16px;
+}  
+#main{
+	padding-bottom: 92px;
+	padding-top: 60px; /*重要！给footer预留的空间*/
+}
+.logoA{
+	padding: 0 10px 0 20px;
+}
+#logo{
+	height: 50px;
+}
+/*登录弹框*/
+#gray{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	overflow: hidden;
+	z-index: 99999;
+}
+#loginWindow{
+	width: 393px;
+	height: 425px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #fff;
+	display: none;
+	z-index: 99999;
+}
+#loginTitle{
+	background-color: #F7F7F7;
+	text-align: center;
+	padding: 5px 0 5px 0px;
+	font-size: 25px;
+	font-weight: 700;
+}
+#loginTitle span{
+	float: right;
+	padding: 5px 5px 0 0;
+	color: #CDCDCD;
+}
+#loginTitle span:hover{
+	color: #707070;
+	cursor: pointer;
+}
+.loginForm{
+	margin: 0 auto;
+	padding: 20px 20px 20px 20px;
+}
+.formInput{
+	margin: 10px 0;
+	border: 1px solid #DDDDDD;
+	width: 100%;
+	height: 50px;
+}
+.formInput span{
+	border: 0;
+	display: block;
+	float: left;
+	width: 15%;
+	height: 100%;
+	font-size: 30px;
+	text-align: center;
+	line-height: 50px;
+	color: #BBBBBB;
+}
+.formInput input{
+	float: left;
+	border: 0;
+	width: 85%;
+	height: 100%;
+	padding-left: 15px;
+}
+#loginSubmit{
+	margin: 10px 0;
+	width: 100%;
+	height: 50px;
+	border: 0;
+	background-color: #2F86FD;
+	color: #fff;
+	font-size: 20px; 
+	padding-left: 5px;
+}
+#loginSubmit:hover{
+	background-color: #4D9CFD;
+}

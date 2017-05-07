@@ -1,0 +1,76 @@
+.content{
+	
+}
+#sidebar{
+		border: 1px solid #EAEAEA;
+		padding: 0 5px 0 15px;
+}
+
+.sidebarTitle{
+	clear: both;
+	border-bottom: 1px solid #EEEEEE;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-weight: 700;
+	width: 100%;
+}
+#conection,#groomWeb,#newArticle{
+	list-style: none;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+#conection li{
+	margin: 2px 5px;
+	padding: 7px 15px;
+	float: left;
+	border-radius: 5px;
+	background-color: #E5E5E5;
+	line-height: 20px;
+	font-size: 20px;
+}
+#conection li a{
+	color: #000;
+	text-decoration: none;
+}
+#conection li:hover{
+	background-color: #FC5D2C;
+	cursor: pointer;
+}
+.dot{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 3px;
+	font-size: 16px;
+	text-align: center;
+	color: #337AB7;
+}
+
+.listNumber,.groomWeb li{
+	height: 30px;
+}
+.groomWeb li a,.listNumber a{
+	padding: 8px 0 8px 10px;
+}
+.listNumber span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 3px;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	background-color: #8EB9F5;
+}
+
+.listNumber:nth-child(1) span{
+	background-color: #F54545;
+
+}
+.listNumber:nth-child(2) span{
+	background-color: #FF8547;
+}
+.listNumber:nth-child(3) span{
+	background-color: #FFAC38;
+}

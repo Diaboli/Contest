@@ -1,0 +1,58 @@
+body{
+	background-color: #30333F;
+}
+#adminLogin{
+	margin: 200px auto;
+	border-top: 5px solid #42EC00;
+	background-color: #fff;
+	width: 350px;
+	height: 433px;
+}
+#adminLogin h1{
+	color: #8D9CAA;
+	margin-bottom: 50px;
+}
+#loginbtn{
+	width: 300px;
+	height: 40px;
+	color: #fff;
+	background-color: #40C402;
+	font-weight: 800px;
+	font-size: 25px;
+	line-height: 40px;
+	border: 0;
+	margin-top: 30px;
+}
+#loginbtn:hover{
+	background-color: #42EC00;
+}
+.formInput{
+	width: 300px;
+	height: 50px;
+	border: 1px solid #ECECEC;
+	margin: 10px auto;
+}
+.formInput span{
+	border: 0;
+	display: block;
+	float: left;
+	width: 15%;
+	height: 100%;
+	font-size: 30px;
+	text-align: center;
+	line-height: 50px;
+	color: #BBBBBB;
+}
+.formInput input{
+	float: left;
+	border: 0;
+	width: 85%;
+	height: 100%;
+	padding-left: 15px;
+}
+#gentle{
+	margin-top: 40px;
+	font-size: 18px;
+	color: #838383;
+	font-weight: 600;
+}

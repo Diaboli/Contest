@@ -1,0 +1,40 @@
+<link rel="stylesheet" type="text/css" href="./Template/Home/default/public/css/page.css"/>
+<div class="page">
+	<if condition="$page['pages'] gt 10 AND $page['pageNumber'] gt 5">
+		<a class="usernum" href="{:U($page['url'].'/page/1')}">1…</a>
+	</if>
+	<if condition="$page['pageNumber'] gt 1">
+		<a class="usernum" href="{:U($page['url'].'/page/'.($page['pageNumber']-1))}"><<</a>
+	</if>  	
+	<if condition="$page['pageNumber'] gt ($page['pages']-5) AND $page['pages'] gt 10">
+		<for start="($page['pages']-9)" end="($page['pages']+1)">
+ 			<if condition="$page['pageNumber'] eq $i"><span class="current">{$i}</span>
+ 				<else/><a class="usernum" href="{:U($page['url'].'/page/'.$i)}">{$i}</a> 
+ 			</if>
+		</for>	
+	<elseif condition="$page['pageNumber'] lt 5 AND $page['pages'] gt 10"/>
+		<for start="1" end="11">
+ 			<if condition="$page['pageNumber'] eq $i"><span class="current">{$i}</span>
+ 				<else/><a class="usernum" href="{:U($page['url'].'/page/'.$i)}">{$i}</a> 
+ 			</if>
+		</for>	
+	<elseif condition="$page['pages'] gt 10"/>	
+		<for start="($page['pageNumber']-4)" end="($page['pageNumber']+5)">
+ 			<if condition="$page['pageNumber'] eq $i"><span class="current">{$i}</span>
+ 				<else/><a class="usernum" href="{:U($page['url'].'/page/'.$i)}">{$i}</a> 
+ 			</if>
+		</for>	
+	<else/>	
+		<for start="1" end="$page['pages'] + 1">
+			<if condition="$page['pageNumber'] eq $i"><span class="current">{$i}</span>
+				<else/><a class="usernum" href="{:U($page['url'].'/page/'.$i)}">{$i}</a> 
+			</if>
+		</for>				
+	</if>
+	<if condition="$page['pages'] gt $page['pageNumber'] AND $page['pageNumber'] lt $page.pages">
+		<a class="usernum" href="{:U($page['url'].'/page/'.($page['pageNumber']+1))}">>></a>
+	</if>
+	<if condition="$page['pages'] gt 10 AND $page['pageNumber'] elt ($page['pages']-5)">
+		<a class="usernum" href="{:U($page['url'].'/page/'.($page['pages']))}">…{$page['pages']}</a>
+	</if>
+</div>

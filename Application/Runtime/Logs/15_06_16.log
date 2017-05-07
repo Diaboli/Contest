@@ -1,0 +1,847 @@
+[ 2015-06-16T19:38:55+08:00 ] 127.0.0.1 /contest/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.043628s ]
+SQL: SELECT status FROM  `member` WHERE id =  '' [ RunTime:0.000515s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\contest\Application\Home\Model\MemberModel.class.php 第 114 行.
+NOTIC: [2] Illegal string offset 'uid' D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000527s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001135s ]
+
+[ 2015-06-16T19:39:01+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Index/articleList/nav/1/page/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034089s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.006411s ]
+SQL: SELECT status FROM  `member` WHERE id =  '' [ RunTime:0.000538s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\contest\Application\Home\Model\MemberModel.class.php 第 114 行.
+NOTIC: [2] Illegal string offset 'uid' D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.068793s ]
+SQL: SELECT * FROM `article` ORDER BY id DESC LIMIT 0, 6 [ RunTime:0.009411s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.040697s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '3' [ RunTime:0.000575s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '4' [ RunTime:0.001245s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '2' [ RunTime:0.000544s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '6' [ RunTime:0.000355s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '5' [ RunTime:0.000380s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '10' [ RunTime:0.000387s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000400s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000427s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000381s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000385s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000505s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000397s ]
+SQL: SELECT COUNT(*) FROM `article` [ RunTime:0.000360s ]
+SQL: SELECT class, meaning navName FROM  `category` ORDER BY class ASC LIMIT 12 [ RunTime:0.000783s ]
+SQL: SELECT id, title FROM `article` ORDER BY id DESC LIMIT 6 [ RunTime:0.000611s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Use of undefined constant pages - assumed 'pages' D:\wamp\www\contest\Application\Runtime\Cache\Home\ce9b301632fad33703bd705746315f14.php 第 113 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\contest\Application\Runtime\Cache\Home\ce9b301632fad33703bd705746315f14.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001310s ]
+
+[ 2015-06-16T19:39:14+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Index/articleList/nav/1/page/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.003363s ]
+SQL: SELECT status FROM  `member` WHERE id =  '' [ RunTime:0.000268s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\contest\Application\Home\Model\MemberModel.class.php 第 114 行.
+NOTIC: [2] Illegal string offset 'uid' D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.002721s ]
+SQL: SELECT * FROM `article` ORDER BY id DESC LIMIT 6, 6 [ RunTime:0.027663s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.005029s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '7' [ RunTime:0.003201s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '8' [ RunTime:0.000310s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '2' [ RunTime:0.000839s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000773s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.001835s ]
+SQL: SELECT username FROM  `member` WHERE id =  '1' [ RunTime:0.001345s ]
+SQL: SELECT COUNT(*) FROM `article` [ RunTime:0.000847s ]
+SQL: SELECT class, meaning navName FROM  `category` ORDER BY class ASC LIMIT 12 [ RunTime:0.004439s ]
+SQL: SELECT id, title FROM `article` ORDER BY id DESC LIMIT 6 [ RunTime:0.000327s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2015-06-16T19:46:42+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.004079s ]
+SQL: SELECT id, username FROM  `member` WHERE username =  'admin' AND PASSWORD =  '25f9e794323b453885f5181f1b624d0b' [ RunTime:0.000423s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2015-06-16T19:46:44+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.003515s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000479s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000578s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000810s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2015-06-16T19:46:50+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Index/articleList/nav/1/page/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.003746s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.006684s ]
+SQL: SELECT * FROM `article` ORDER BY id DESC LIMIT 0, 6 [ RunTime:0.002900s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003765s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '3' [ RunTime:0.000558s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '4' [ RunTime:0.001565s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '2' [ RunTime:0.000590s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '6' [ RunTime:0.000456s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '5' [ RunTime:0.000379s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '10' [ RunTime:0.000366s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000634s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000433s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000460s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000404s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000407s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000590s ]
+SQL: SELECT COUNT(*) FROM `article` [ RunTime:0.000760s ]
+SQL: SELECT class, meaning navName FROM  `category` ORDER BY class ASC LIMIT 12 [ RunTime:0.000693s ]
+SQL: SELECT id, title FROM `article` ORDER BY id DESC LIMIT 6 [ RunTime:0.000400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001446s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001625s ]
+NOTIC: [8] Use of undefined constant pages - assumed 'pages' D:\wamp\www\contest\Application\Runtime\Cache\Home\ce9b301632fad33703bd705746315f14.php 第 113 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\contest\Application\Runtime\Cache\Home\ce9b301632fad33703bd705746315f14.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001700s ]
+
+[ 2015-06-16T19:46:56+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Center/articleList/page/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.002648s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.007293s ]
+SQL: SELECT id, title, class, time FROM `article` WHERE uid = '8' ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003553s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '3' [ RunTime:0.000336s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '4' [ RunTime:0.000210s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '2' [ RunTime:0.000196s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '6' [ RunTime:0.000197s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '5' [ RunTime:0.000196s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '10' [ RunTime:0.005286s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '7' [ RunTime:0.000508s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '8' [ RunTime:0.000233s ]
+SQL: SELECT COUNT(*) FROM `article` WHERE uid = '8' [ RunTime:0.000238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2015-06-16T19:46:59+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Center/uploadArticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.004143s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000515s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.004257s ]
+SQL: SELECT class, meaning navName FROM  `category` WHERE class != 1 ORDER BY class ASC [ RunTime:0.000805s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2015-06-16T19:53:30+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Center/articleList/page/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.004066s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.004115s ]
+SQL: SELECT id, title, class, time FROM `article` WHERE uid = '8' ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.002936s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '3' [ RunTime:0.000273s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '4' [ RunTime:0.000176s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '2' [ RunTime:0.000315s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '6' [ RunTime:0.000333s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '5' [ RunTime:0.000320s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '10' [ RunTime:0.000308s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '7' [ RunTime:0.000465s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '8' [ RunTime:0.000320s ]
+SQL: SELECT COUNT(*) FROM `article` WHERE uid = '8' [ RunTime:0.000365s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001310s ]
+
+[ 2015-06-16T20:04:13+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Center/uploadArticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.006314s ]
+SQL: SELECT status FROM  `member` WHERE id =  '' [ RunTime:0.000425s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\contest\Application\Home\Model\MemberModel.class.php 第 114 行.
+NOTIC: [2] Illegal string offset 'uid' D:\wamp\www\contest\Application\Home\Controller\CenterController.class.php 第 26 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\contest\Application\Home\Controller\CenterController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000950s ]
+
+[ 2015-06-16T20:04:16+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.004459s ]
+SQL: SELECT status FROM  `member` WHERE id =  '' [ RunTime:0.000627s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\contest\Application\Home\Model\MemberModel.class.php 第 114 行.
+NOTIC: [2] Illegal string offset 'uid' D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000292s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000542s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004079s ]
+
+[ 2015-06-16T20:04:24+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.004896s ]
+SQL: SELECT id, username FROM  `member` WHERE username =  'admin' AND PASSWORD =  '25f9e794323b453885f5181f1b624d0b' [ RunTime:0.000474s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2015-06-16T20:04:26+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.003515s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2015-06-16T20:04:31+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Center/articleList/page/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.003976s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.004484s ]
+SQL: SELECT id, title, class, time FROM `article` WHERE uid = '8' ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.004185s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '3' [ RunTime:0.000489s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '4' [ RunTime:0.000437s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '2' [ RunTime:0.000418s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '6' [ RunTime:0.000722s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '5' [ RunTime:0.000410s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '10' [ RunTime:0.000422s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '7' [ RunTime:0.000404s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '8' [ RunTime:0.000380s ]
+SQL: SELECT COUNT(*) FROM `article` WHERE uid = '8' [ RunTime:0.000371s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2015-06-16T20:04:35+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Center/uploadArticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.003786s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000422s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003729s ]
+SQL: SELECT class, meaning navName FROM  `category` WHERE class != 1 ORDER BY class ASC [ RunTime:0.000536s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001656s ]
+
+[ 2015-06-16T20:11:59+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Center/uploadArticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.009646s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.002429s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.002913s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003883s ]
+SQL: SELECT class, meaning navName FROM  `category` WHERE class != 1 ORDER BY class ASC [ RunTime:0.000539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.178856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.179035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2015-06-16T20:24:14+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Center/uploadArticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.003703s ]
+SQL: SELECT status FROM  `member` WHERE id =  '' [ RunTime:0.001274s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\contest\Application\Home\Model\MemberModel.class.php 第 114 行.
+NOTIC: [2] Illegal string offset 'uid' D:\wamp\www\contest\Application\Home\Controller\CenterController.class.php 第 26 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\contest\Application\Home\Controller\CenterController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000743s ]
+
+[ 2015-06-16T20:24:18+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.004702s ]
+SQL: SELECT status FROM  `member` WHERE id =  '' [ RunTime:0.000521s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\contest\Application\Home\Model\MemberModel.class.php 第 114 行.
+NOTIC: [2] Illegal string offset 'uid' D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2015-06-16T20:24:43+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003040s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.004726s ]
+SQL: SELECT id, username FROM  `member` WHERE username =  'admin' AND PASSWORD =  '25f9e794323b453885f5181f1b624d0b' [ RunTime:0.000490s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001329s ]
+
+[ 2015-06-16T20:24:44+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.004364s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2015-06-16T20:24:48+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Center/articleList/page/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.004864s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.003999s ]
+SQL: SELECT id, title, class, time FROM `article` WHERE uid = '8' ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.004195s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '3' [ RunTime:0.000578s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '4' [ RunTime:0.000364s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '2' [ RunTime:0.000485s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '6' [ RunTime:0.000513s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '5' [ RunTime:0.000484s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '10' [ RunTime:0.000440s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '7' [ RunTime:0.000399s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '8' [ RunTime:0.000334s ]
+SQL: SELECT COUNT(*) FROM `article` WHERE uid = '8' [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000474s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2015-06-16T20:24:51+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Center/uploadArticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.003733s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000418s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.004002s ]
+SQL: SELECT class, meaning navName FROM  `category` WHERE class != 1 ORDER BY class ASC [ RunTime:0.000512s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2015-06-16T21:43:25+08:00 ] 127.0.0.1 /contest/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.004043s ]
+SQL: SELECT status FROM  `member` WHERE id =  '' [ RunTime:0.000794s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\contest\Application\Home\Model\MemberModel.class.php 第 114 行.
+NOTIC: [2] Illegal string offset 'uid' D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000449s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2015-06-16T21:43:36+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Index/articleList/nav/1/page/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.005368s ]
+SQL: SELECT status FROM  `member` WHERE id =  '' [ RunTime:0.000467s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\contest\Application\Home\Model\MemberModel.class.php 第 114 行.
+NOTIC: [2] Illegal string offset 'uid' D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\contest\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.007715s ]
+SQL: SELECT * FROM `article` ORDER BY id DESC LIMIT 0, 6 [ RunTime:0.003289s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.008665s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '3' [ RunTime:0.000779s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '4' [ RunTime:0.000493s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '2' [ RunTime:0.000340s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '6' [ RunTime:0.000576s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '5' [ RunTime:0.000475s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '10' [ RunTime:0.000349s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000314s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000330s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000309s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000296s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000344s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000286s ]
+SQL: SELECT COUNT(*) FROM `article` [ RunTime:0.000284s ]
+SQL: SELECT class, meaning navName FROM  `category` ORDER BY class ASC LIMIT 12 [ RunTime:0.001374s ]
+SQL: SELECT id, title FROM `article` ORDER BY id DESC LIMIT 6 [ RunTime:0.000956s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Use of undefined constant pages - assumed 'pages' D:\wamp\www\contest\Application\Runtime\Cache\Home\ce9b301632fad33703bd705746315f14.php 第 113 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\contest\Application\Runtime\Cache\Home\ce9b301632fad33703bd705746315f14.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002864s ]
+
+[ 2015-06-16T21:43:53+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.002888s ]
+SQL: SELECT id, username FROM  `member` WHERE username =  'admin' AND PASSWORD =  '25f9e794323b453885f5181f1b624d0b' [ RunTime:0.000337s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2015-06-16T21:43:54+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.006049s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000570s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2015-06-16T21:43:57+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Index/articleList/nav/1/page/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.005165s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005481s ]
+SQL: SELECT * FROM `article` ORDER BY id DESC LIMIT 0, 6 [ RunTime:0.003582s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.005037s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '3' [ RunTime:0.000526s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '4' [ RunTime:0.000333s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '2' [ RunTime:0.000311s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '6' [ RunTime:0.000306s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '5' [ RunTime:0.000337s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '10' [ RunTime:0.000342s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000576s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000388s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000338s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000340s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000698s ]
+SQL: SELECT username FROM  `member` WHERE id =  '8' [ RunTime:0.000578s ]
+SQL: SELECT COUNT(*) FROM `article` [ RunTime:0.000381s ]
+SQL: SELECT class, meaning navName FROM  `category` ORDER BY class ASC LIMIT 12 [ RunTime:0.000380s ]
+SQL: SELECT id, title FROM `article` ORDER BY id DESC LIMIT 6 [ RunTime:0.000314s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000485s ]
+NOTIC: [8] Use of undefined constant pages - assumed 'pages' D:\wamp\www\contest\Application\Runtime\Cache\Home\ce9b301632fad33703bd705746315f14.php 第 113 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\contest\Application\Runtime\Cache\Home\ce9b301632fad33703bd705746315f14.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002816s ]
+
+[ 2015-06-16T21:43:59+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Center/articleList/page/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.005629s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.003985s ]
+SQL: SELECT id, title, class, time FROM `article` WHERE uid = '8' ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003657s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '3' [ RunTime:0.000501s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '4' [ RunTime:0.000378s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '2' [ RunTime:0.000337s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '6' [ RunTime:0.000330s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '5' [ RunTime:0.000304s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '10' [ RunTime:0.000377s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '7' [ RunTime:0.000367s ]
+SQL: SELECT meaning m FROM  `category` WHERE class = '8' [ RunTime:0.000327s ]
+SQL: SELECT COUNT(*) FROM `article` WHERE uid = '8' [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2015-06-16T21:44:06+08:00 ] 127.0.0.1 /contest/index.php?s=/Home/Center/uploadArticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.004104s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000519s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003106s ]
+SQL: SELECT class, meaning navName FROM  `category` WHERE class != 1 ORDER BY class ASC [ RunTime:0.001165s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2015-06-16T21:44:33+08:00 ] 127.0.0.1 /contest/Home/Center/upload?CKEditor=editor1&CKEditorFuncNum=1&langCode=zh-cn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.006118s ]
+SQL: SELECT status FROM  `member` WHERE id =  '8' [ RunTime:0.000574s ]
+NOTIC: [2048] Declaration of Home\Controller\UploadFileController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp\www\contest\Application\Home\Controller\UploadFileController.class.php 第 535 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\contest\Application\Home\Controller\CenterController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.034160s ]
+SQL: INSERT INTO `picture` (`articleId`,`address`) VALUES (8,'b8e76abba866cf42c111d4f4e97d610a.jpg') [ RunTime:0.001149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+

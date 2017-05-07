@@ -1,0 +1,31 @@
+<extend name="./Application/Common/View/Base/base.html" />
+<block name="title"><title>{$title}</title></block>
+<block name="style">
+	<link rel="stylesheet" type="text/css" href="./Template/Home/default/Index/css/article.css">
+	<link rel="stylesheet" type="text/css" href="./Template/Home/default/Index/css/articleList.css">
+</block>
+<block name="main">
+	<div id="main">
+		<div class="container">
+			<include file="./Template/Home/default/public/secondNav.html"/>
+			<div class="col-md-8">
+				<h2>{$title}</h2>
+				<br/>
+				<div class="visible-md visible-lg"><p style="border-bottom: 1px solid #EEEEEE;">作者：{$author}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;时间：{$time}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文章分类：{$class}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文章来源：{$source}</p></div>
+				<div class="hidden-md hidden-lg"><p>作者：{$author}</p><p>时间：{$time}</p><p>文章分类：{$class}</p><p style="border-bottom: 1px solid #EEEEEE;">文章来源：{$source}</p></div>
+				<div id="articleContent">
+					{$context}
+				</div>
+			</div>
+			<div class="visible-md visible-lg">
+				<div class="col-md-4">
+					<include file="./Template/Home/default/public/sidebar.html"/>
+				</div>
+			</div>
+		</div>
+	</div>
+</block>
+<block name="script">
+
+</block>
+

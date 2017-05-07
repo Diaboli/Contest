@@ -1,0 +1,16 @@
+<link rel="stylesheet" type="text/css" href="./Template/Home/default/public/css/secondNav.css">
+<div class="col-md-12">
+	<img style="width:100%;margin:0 0 10px 0;"src="./Template/Home/default/public/img/banner.jpg">
+	<div class="visible-lg visible-md">
+		<ul id="secondNav">
+			<foreach name="category" item="vo" key="k">
+				<a href="{:U('/Home/Index/articleList/'.$vo['URL'])}"><li <if condition="$vo.class eq $_GET['nav']">class="nowPage"</if>>{$vo.navName}</li></a>
+			</foreach>
+		</ul>
+	</div>
+	<div class="hidden-lg hidden-md">
+		<ul id="secondNav">
+			<a href="{:U('/Home/Index/articleList/nav/1/page/1.html')}"><li class="nowPage">文章列表</li></a>
+		</ul>
+	</div>
+</div>

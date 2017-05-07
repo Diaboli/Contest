@@ -1,0 +1,47 @@
+#listArticle{
+	list-style: none;
+	padding: 0 0 0 0;
+}
+#listArticle li{
+	height: 150px;
+	border: 1px solid #EAEAEA;
+	border-left: 3px solid #DBDBDB;
+	padding: 15px 5px 10px 15px;
+	border-radius: 5px;
+}
+#listArticle li:hover{
+	border: 1px solid #3EB8DD;
+	border-left: 3px solid #3EB8DD;
+}
+.summaryTitle{
+	margin: 0;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	display: inline;
+	color: #555555;
+	font-weight: 700;
+}
+.summaryTitle:hover{
+	color: #399EBB;
+}
+.summary a:hover{
+	color: #399EBB;
+}
+.summary{
+	width: 480px;
+	height: 150px;
+	float: left;
+	margin: 0 3px;
+}
+.articleImage{
+	width: 200px;
+	height: 124px;
+	border: 1px solid #DBDBDB;
+	float: left;
+	margin: 0 3px;
+}
+.summaryContent{
+	width: 480px;
+	height: 60px;
+	overflow: hidden;
+}

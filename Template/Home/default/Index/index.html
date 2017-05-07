@@ -1,0 +1,147 @@
+<extend name="./Application/Common/View/Base/base.html" />
+<block name="title"><title>首页</title></block>
+<block name="style">
+	<link rel="stylesheet" href="./Template/Home/default/Index/css/jquery.slider.css">
+</block>
+<block name="main">
+	<div class="row">
+		<div class="col-md-12"> 
+			<center style="margin-top:50px;margin-bottom:10px;">
+				<div class="slider" style="width:100%;height:468px;">
+				  <div> <img src="/contest/Template/Home/default/Index/img/slide_1.jpg" style="width:100%"/> </div>
+				  <div> <img src="/contest/Template/Home/default/Index/img/slide_2.jpg" style="width:100%"/> </div>
+				  <div> <img src="/contest/Template/Home/default/Index/img/slide_3.jpg" style="width:100%"/> </div>
+				  <div> <img src="/contest/Template/Home/default/Index/img/slide_4.jpg" style="width:100%"/> </div>
+				</div>
+			</center>
+		</div>
+	</div>
+	<div class="col-md-12" style="top:-20px">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="row contest" style="background:#35A6E6;color:#ffffff;padding:200px 20px;line-height:25px;font-size:17px;letter-spacing:3px;">
+							<div  class="container">
+								<div id="animation1">
+									<div class="col-md-5 avatar-img">
+										<div class="left">
+											<img class="avatar-img" src="/contest/Template/Home/default/Index/img/挖掘机.png" style="width:85%;">
+										</div>
+									</div>
+									<div class="col-md-7">
+										<div class="right">
+											<h1 class="title" style="font-size: 50px;">技术交流</h1>
+											<hr/>
+											<p class="words" style="font-size:30px;letter-spacing:5px;line-height: 50px;">挖掘机学不好不要紧，快来技术论坛学一门新技术吧！不用去蓝翔，在家就能享受到大神给你的辅导，还不快去论坛查看技术文章？</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row contest" style="background: #53C1ED;color:#ffffff;padding:200px 20px;line-height:25px;font-size:17px;letter-spacing:3px;">
+							<div  class="container">
+								<div  class="container">
+									<div id="animation2">
+										<div class="col-md-7">
+											<div class="left">
+												<h1 class="title" style="font-size: 50px;">上传文章</h1>
+												<hr/>
+												<p class="words" style="font-size:30px;letter-spacing:5px;line-height: 50px;">这是一个大神们挥洒笔墨的天地，作为一个大神，怎么能吝啬自己的知识，快快来发表文章啦！！！</p>
+											</div>
+										</div>
+										<div class="col-md-5 avatar-img">
+											<div class="right">
+												<img class="avatar-img" src="/contest/Template/Home/default/Index/img/上传文章.png" style="width: 80%;margin:10px 0 10px 0;">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row contest" style="background: #7AC4EF;color:#ffffff;padding:200px 20px;line-height:25px;font-size:17px;letter-spacing:3px;">
+							<div  class="container">
+								<div id="animation3">
+									<div class="col-md-4 avatar-img">
+										<div class="left">
+											<img class="avatar-img" src="/contest/Template/Home/default/Index/img/上传图片.png" style="width: 75%;">
+										</div>
+									</div>
+									<div class="col-md-8">
+										<div class="right">
+											<h1 class="title" style="font-size: 50px;">上传图片</h1>
+											<hr/>
+											<p class="words" style="font-size:30px;letter-spacing:5px;line-height: 50px;">为了大神们更好的说明自己的操作方法，以及用户之间更好的交流，这个功能可不能落下哦！！！</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row contest" style="background: #44C6A4;color:#ffffff;padding:200px 20px;line-height:25px;font-size:17px;letter-spacing:3px;">
+							<div  class="container">
+								<div id="animation4">
+									<div class="col-md-12">
+										<div class="left">
+											<h1 class="title" style="font-size: 50px;">注册&&登录</h1>
+											<hr/>
+											<p class="words" style="font-size:30px;letter-spacing:5px;line-height: 50px;">大神曰，有技术就是这么任性，快快加入我们吧！！！</p>
+										</div>
+									</div>
+									<div class="col-md-5"></div>
+									<div class="col-md-7 avatar-img">
+										<div class="right">
+											<img class="avatar-img" src="/contest/Template/Home/default/Index/img/欢迎.png">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+</block>
+
+<block name="script">
+<script type="text/javascript" src="./Public/static/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="./Public/static/jquery/jquery.slider.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	    $(".slider").slideshow({
+		  height     : 325,
+		  transition : 'bar'
+		});
+	$(document).scroll(function(){
+		animation("#animation1");
+		animation("#animation2");
+		animation("#animation3");
+		animation("#animation4");
+		});	
+	});
+	 $(document).ready(function(){
+	 	 var screenWidth = document.body.offsetWidth;
+         // $(window).resize(function() {
+			 if(screenWidth>1000){
+				 $('.title').css({'font-size':'50px'});
+				  $('.title-right').css({'text-align':'left'});
+				 $('.words').css({'font-size':'30px','line-height':'50px'});
+				 $('.contest').css({'padding':'200px 20px'});
+	  		     $('.avatar-img').css({'display':'inline'});
+			  }else{
+				  $('.title').css({'font-size':'25px'});
+				  $('.title-right').css({'text-align':'right'});
+				  $('.words').css({'font-size':'20px','line-height':'30px'});
+				  $('.contest').css({'padding':'30px 20px'});
+				  $('.avatar-img').css({'display':'none'});
+					 }
+		 // });
+ });
+	function animation(id){
+		var judge = ($(window).scrollTop()>($(id).offset().top+$(id).outerHeight()))||(($(window).scrollTop()+$(window).height())<$(id).offset().top);
+		if(judge){
+			$(id).find(".left-animation").attr({"class":"left"});
+			$(id).find(".right-animation").attr({"class":"right"});
+		}else{
+			$(id).find(".left").attr({"class":"left-animation"});
+			$(id).find(".right").attr({"class":"right-animation"});		
+		}		
+	}
+</script>
+</block>

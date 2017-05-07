@@ -1,0 +1,33 @@
+<extend name="./Application/Common/View/Base/admin.html" />
+<block name="style">
+	
+</block>
+<block name="main">
+	<br/><br/>
+	<div class="main-title">
+		<h2 class="f20 fb">分类信息</h2>
+	</div>
+	<a herf="javascript:void(0);" class="addClazz"><button class="btn">新增</button></a>
+	<a herf="javascript:void(0);" btnWay="{:U('/Home/Admin/delClazz')}" class="btnFunction"><button class="btn">删除</button></a>
+	<div class="data-table">
+		<table class="table-tittle" id="classTable">
+			<thead><tr><th><input type="checkbox" id="checkAll"></th><th>代号</th><th>分类</th></thead>
+			<tbody>
+				<foreach name="info" item="vo" key="k">
+					<tr>
+						<td><input type="checkbox" name="subBox" value="{$vo.id}"/></td>
+						<td>{$vo.class}</td>
+						<td>{$vo.meaning}</td>
+					</tr>
+				</foreach>
+			</tbody>
+		</table>
+	</div>
+	<include file="./Template/Home/default/public/page.html"/>
+</block>
+<block name="script">
+	<script type="text/javascript">
+		var addWay = "{:U('/Home/Admin/addClazz')}";
+	</script>
+	<script type="text/javascript" src="./Template/Home/default/Admin/js/admin.js"></script>
+</block>

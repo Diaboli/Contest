@@ -1,0 +1,66 @@
+<extend name="./Application/Common/View/Base/base.html" />
+<block name="title"><title>文章记录</title></block>
+<block name="style">
+	<link rel="stylesheet" type="text/css" href="./Template/Home/default/Center/css/articleList.css"/>
+</block>
+<block name="main">
+	<div id="main">
+		<div class="container">
+			<div class="col-md-3">
+				<ul class="userUl">
+					<li class="userUlTitle">个人中心</li>
+					<a href="javascript:void(0);" onclick="alert('对不起，该功能暂未开放，正在努力开发中！！！');"><li class="userLi">个人资料</li></a>
+					<a href="{:U('/Home/Center/uploadArticle')}"><li class="userLi">上传文章</li></a>
+					<a href="{:U('/Home/Center/articleList/page/1')}"><li class="userLi">文章记录</li></a>
+				</ul>
+			</div>
+			<div class="col-md-9">
+				<div class="userDiv">
+					<h3>上传文章记录</h3>
+					<ul class="recordList">
+						<foreach name="info" item="vo" key="k">
+							<li class="recordContent">
+							<h4>[{$vo['class']}]{$vo['title']}<span style="display:block;float:right">{$vo['time']}</span></h4>
+							<p style="display:block;float:right;"><a href="{:U('/Home/Index/article/id/'.$vo['id'])}">查看全文</a>&nbsp;|&nbsp;<a class="deleteArticle" article-id="{$vo['id']}" href="javascript:void(0);">删除</a></p>
+						</li>
+						</foreach>
+					</ul>
+					<include file="./Template/Home/default/public/page.html"/>
+				</div>
+			</div>
+		</div>
+	</div>
+</block>
+
+<block name="script">
+	<script type="text/javascript">
+	$(".deleteArticle").click(function(){
+			var articleId = $(this).attr("article-id");
+			$.post("{:U('/Home/Center/delArticle')}",{id:articleId},function(data){
+				if(data){
+					alert("删除成功");
+					location.reload(true);   
+				}else{
+					alert("删除失败");
+				}
+			});
+		});
+		$(document).ready(function(){
+	 	 // $(window).resize(function() {
+         	 var screenWidth = document.body.offsetWidth;
+			 if(screenWidth>1000){
+				  $('.recordList').css({'padding-left':'0'});
+				   $('.userDiv').css({'padding':'5px 30px 10px'});
+				  $('span').css({'float':'right'});
+				  $('.recordContent').height(70);
+			  }else{
+				  $('.recordList').css({'padding-left':'0'});
+				   $('.userDiv').css({'padding':'5px 0px 10px'});
+				  $('span').css({'float':'none'});
+				  $('.recordContent').height(90);
+			  }
+		  // });
+ 	});
+	</script>
+</block>
+

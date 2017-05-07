@@ -1,0 +1,21 @@
+/*分页*/
+.page{
+	margin: 10px auto;
+	height: 30px;
+}
+.page a,.page span{
+	border: 1px solid #DBDBDB;
+	float: left;
+	padding: 0 18px;
+	height: 40px;
+	line-height: 40px;
+	color: #000;
+	display: block;
+}
+.page .current{
+	border-top: 3px solid #3EB8DD;
+	line-height: 40px;
+}
+.page a:hover{
+	background: #E1E1E1;
+}

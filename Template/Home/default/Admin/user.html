@@ -1,0 +1,37 @@
+<extend name="./Application/Common/View/Base/admin.html" />
+<block name="style">
+	
+</block>
+<block name="main">
+	<br/><br/>
+	<div class="main-title">
+		<h2 class="f20 fb">用户信息</h2>
+	</div>
+	<a herf="javascript:void(0);" btnWay="{:U('/Home/Admin/accredit')}" class="btnFunction"><button class="btn">授权</button></a>
+	<a herf="javascript:void(0);" btnWay="{:U('/Home/Admin/accreditCancel')}" class="btnFunction"><button class="btn">取消授权</button></a>
+	<a herf="javascript:void(0);" btnWay="{:U('/Home/Admin/forceOut')}" class="btnFunction"><button class="btn">禁用</button></a>
+	<a herf="javascript:void(0);" btnWay="{:U('/Home/Admin/forceIn')}" class="btnFunction"><button class="btn">取消禁用</button></a>
+	<div class="data-table">
+		<table class="table-tittle">
+			<thead><tr><th><input type="checkbox" id="checkAll"></th><th>用户名</th><th>状态</th><th>管理员权限</th></tr></thead>
+			<tbody>
+				<foreach name="member" item="vo" key="k">
+					<tr>
+						<td><input type="checkbox" name="subBox" value="{$vo.id}"/></td>
+						<td>{$vo.username}</td>
+						<td><if condition="$vo.status eq 1">活跃中<else/>封杀</if></td>
+						<td>
+							<if condition="$vo.permissions eq 1">有
+							<else/>无
+							</if>
+						</td>
+					</tr>
+				</foreach>
+			</tbody>
+		</table>
+	</div>
+	<include file="./Template/Home/default/public/page.html"/>
+</block>
+<block name="script">
+	<script type="text/javascript" src="./Template/Home/default/Admin/js/admin.js"></script>
+</block>
